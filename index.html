@@ -1,110 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Site Dev</title>
 
     <!---css link-->
-    <link rel="stylesheet" href="../WebSiteLoginForm/css/style.css">
+    <link rel="stylesheet" href="../WebSiteLoginForm/css/style.css" />
 
     <!--boxicons link-->
-    <link rel="stylesheet"
-  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
 
-  <!--google fonts link-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;500;600;700;800;900&family=Ranchers&display=swap" rel="stylesheet">
-</head>
-<body>
-
+    <!--google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;500;600;700;800;900&family=Ranchers&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!--header design-->
     <header>
-        <a href="#" class="logo">&lsaquo;Coder.else&rsaquo;</Coder.else></a>
+      <a href="#" class="logo">&lsaquo;Coder.else&rsaquo;</a>
 
-        <ul class="navbar">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contato</a></li>
-            <button type="button" class="btnLogin-popup">login</button>
-        </ul>
+      <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contato</a></li>
+        <button type="button" class="btnLogin-popup">login</button>
+      </ul>
     </header>
 
     <!--container-->
     <div class="container">
-        <div class="main-box login">
-            <h1>Login</h1>
-            <form action="">
-                <div class="input-box">
-                    <span class="icon"><i class='bx bxs-envelope'></i></span>
-                    <input type="email" required>
-                    <label>E-mail</label>
-                </div>
+      <div class="main-box login">
+        <h1>Login</h1>
+        <form action="">
+          <div class="input-box">
+            <span class="icon"><i class="bx bxs-envelope"></i></span>
+            <input type="email" required />
+            <label>E-mail</label>
+          </div>
 
-                <div class="input-box">
-                    <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
-                    <input type="password" required>
-                    <label>Senha</label>
-                </div>
+          <div class="input-box">
+            <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+            <input type="password" required />
+            <label>Senha</label>
+          </div>
 
-                <div class="check">
-                    <label><input type="checkbox">Lembrar-me</label>
-                    <a href="#">Esqueci minha senha</a>
-                </div>
-                <button type="submit" class="main-btn">login</button>
-                <div class="register">
-                    <p>Não tem uma conta? <a href="#" class="register-link">Cadastrar!</a></p>
-                </div>
-            </form>
-        </div>
+          <div class="check">
+            <label><input type="checkbox" />Lembrar-me</label>
+            <a href="#">Esqueci minha senha</a>
+          </div>
+          <button type="submit" class="main-btn">login</button>
+          <div class="register">
+            <p>
+              Não tem uma conta?
+              <a href="#" class="register-link">Cadastrar!</a>
+            </p>
+          </div>
+        </form>
+      </div>
 
+      <div class="main-box register">
+        <h1>Cadastro</h1>
+        <form action="">
+          <div class="input-box">
+            <span class="icon"><i class="bx bxs-user"></i></span>
+            <input type="text" required />
+            <label>Usuário</label>
+          </div>
 
-        <div class="main-box register">
-            <h1>Cadastro</h1>
-            <form action="">
+          <div class="input-box">
+            <span class="icon"><i class="bx bxs-envelope"></i></span>
+            <input type="email" required />
+            <label>E-mail</label>
+          </div>
 
-                <div class="input-box">
-                    <span class="icon"><i class='bx bxs-user'></i></span>
-                    <input type="text" required>
-                    <label>Usuário</label>
-                </div>
+          <div class="input-box">
+            <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+            <input type="password" required />
+            <label>Senha</label>
+          </div>
 
-                <div class="input-box">
-                    <span class="icon"><i class='bx bxs-envelope'></i></span>
-                    <input type="email" required>
-                    <label>E-mail</label>
-                </div>
+          <div class="check">
+            <label
+              ><input type="checkbox" />Aceito todos os termos e
+              condições.</label
+            >
+          </div>
+          <button type="submit" class="main-btn">Salvar</button>
+          <div class="register">
+            <p>
+              Já possui uma conta? <a href="#" class="login-link">Login!</a>
+            </p>
+          </div>
+        </form>
+      </div>
 
-                <div class="input-box">
-                    <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
-                    <input type="password" required>
-                    <label>Senha</label>
-                </div>
-
-                <div class="check">
-                    <label><input type="checkbox">Aceito todos os termos e condições.</label>
-
-                </div>
-                <button type="submit" class="main-btn">Salvar</button>
-                <div class="register">
-                    <p>Já possui uma conta? <a href="#" class="login-link">Login!</a></p>
-                </div>
-            </form>
-        </div>
-
-
-<span class="close-icon">
-    <div class="bx bx-x"></div>
-</span>
+      <span class="close-icon">
+        <div class="bx bx-x"></div>
+      </span>
     </div>
 
-    
-<!--custom js link-->
-<script type="text/javascript" src="js/script.js"></script>
-
-</body>
+    <!--custom js link-->
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
 </html>
